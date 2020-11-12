@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/theme/black.css" />
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css" />
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.type = "text/css";
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? "css/print/pdf.css"
+        : "css/print/paper.css";
+      document.getElementsByTagName("head")[0].appendChild(link);
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <section>
+            <h1>Présentation Stage</h1>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>1. Contexte du stage</h2>
+          </section>
+          <section>
+            <ol>
+              <li>
+                Effectué au sein de l'Insee, au sein du SNDIO
+              </li>
+              <li>
+                Développer, maintenir et 
+              </li>
+            </ol>
+          </section>
+          <section>
+            Poste : Analyste développeur du projet Tourisme 3
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>2. Besoins</h2>
+          </section>
+          <section>
+            <ol>
+              <li>
+                Des difficultés pour spécifier
+              </li>
+              <li>
+                Des attentes utilisateurs
+              </li>
+            </ol>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>3. Reponses</h2>
+          </section>
+          <section>
+            Objectifs
+          </section>
+          <section>
+            <ol>
+              <li>
+                Conception de modules
+              </li>
+              <li>
+                Impliquer des utilisateurs
+              </li>
+            </ol>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>4. Méthodes</h2>
+          </section>
+          <section>
+            <ol>
+              <li>
+               Création de groupes utilisateurs
+              </li>
+              <li>
+               2 semaines de développement
+               </li>
+              <li>
+               Point avec les groupes
+              </li>
+              <li>
+               Questionnaire de satisfaction
+               </li>
+            </ol>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>5. Résultats</h2>
+          </section>
+          <section>
+            <ol>
+              <li>
+                Principe de découpe de la page : 12 "espaces"
+              </li>
+              <li>
+                Permet de placer les différents composants rapidement
+              </li>
+            </ol>
+          </section>
+          <section>
+            <img data-src="Evolution_Diffusion.png" />
+          </section>
+          <section>
+            <img data-src="Evolution_Portail_Utilisateur.png" />
+          </section>
+          <section>
+            <img data-src="Temps_erreurs.png" />
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>6. Prise de recul</h2>
+          </section>
+          <section>
+            Questionnaire
+            <ol>
+              <li>
+                Résultats métiers interressants, Questions ouvertes donnent 
+                de bons résultats
+              </li>
+              <li>
+                Partie ressenti très peu saisie
+              </li>
+            </ol>
+          </section>
+          <section>
+            Méthodes itératives avec métriques
+            <ol>
+              <li>
+                Objectivité du nombres d'erreurs et des temps d'execution
+              </li>
+              <li>
+                Inadaptabilité à certaines fonctionnalités
+              </li>
+            </ol>
+          </section>
+          <section>
+            Groupes utilisateurs
+            <ol>
+              <li>
+                Pluralité des avis pour une meilleure vision métier
+              </li>
+              <li>
+                Dans notre cas, trop peu de participants
+              </li>
+            </ol>
+          </section>
+        </section>
+      </div>
+    </div>
+
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        dependencies: [
+          { src: "plugin/markdown/marked.js" },
+          { src: "plugin/markdown/markdown.js" },
+          { src: "plugin/notes/notes.js", async: true },
+          { src: "plugin/highlight/highlight.js", async: true }
+        ]
+      });
+    </script>
+  </body>
+</html>
